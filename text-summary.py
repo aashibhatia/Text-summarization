@@ -28,7 +28,7 @@ for s in sentences:
         if word not in stopwords:
             temp.append(word)
     sentence_cl.append(temp)   
-sentence_cl
+print(sentence_cl)
 def count_words(sen):
     count=0
     i=0
